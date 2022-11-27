@@ -1,0 +1,387 @@
+html
+{
+    box-sizing: border-box;
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    width: 1280px;
+    height: 3685px;
+
+ }
+
+
+.LogoAndOption
+{
+    width: 1280px;
+    height: 100px;
+    background-color: #6B573D;
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 104px;
+    height: 67px;
+    margin-left: 38px;
+    margin-right: 406px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    padding-right: 71px;
+    
+}
+
+.optionword{
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 75px;
+    
+}
+
+.banner1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 111px;
+    
+}
+
+.Ban1Words{
+    margin: 0;
+    
+
+
+}
+
+h1{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 117px;
+    margin: 0;
+    color: #0F0C06;
+    
+}
+
+.ban1word{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    margin: 0;
+    color: #6B573D;
+    padding-bottom: 33px;
+}
+
+.ban1smallword{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #787878;
+    font-weight: 400;
+}
+
+.photo1{
+    width:724px;
+    height: 640.5px;
+    
+}
+
+.banner2{
+    display: flex;
+    align-items: center;
+    padding-top: 101.5px;
+   
+
+}
+
+.photo2{
+    
+    padding-right: 71px;
+}
+
+.Ban2Words
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+h2{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 64px;
+    margin: 0;
+    color: #6B573D;
+    
+}
+
+.ban2word{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    color: #3C3C3C;
+    padding-bottom: 118px;
+}
+
+.ban2Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 60px;
+    background-color: #6B573D;
+    border-radius: 50px;
+    margin-left: 18px;
+   
+}
+
+.Btnword{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 400;
+
+}
+
+.banner3{
+    padding-top: 101.5px;
+
+}
+
+.Ban3BG{
+    height: 620px;
+    background-color: #8E795C;
+}
+
+.photo3{
+    padding-left: 427px;
+    padding-top: 72px;
+    padding-bottom: 30px;
+}
+
+.ban3Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 60px;
+    background-color: #6B573D;
+    border-radius: 50px;
+    margin-left: 543px;
+    
+   
+}
+
+.Btnword3{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 400;
+
+}
+
+.banner4{
+    padding-top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 120px;
+
+}
+
+.word1{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #6B573D;
+    padding-top: 35px;
+    padding-left: 80px;
+
+}
+
+.word2{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #6B573D;
+    padding-top: 35px;
+    padding-left: 120px;
+
+}
+
+.word{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #6B573D;
+    padding-top: 35px;
+    padding-left: 20px;
+
+}
+
+.introword{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #5C5C5C;
+    font-weight: 400;
+    padding-top: 10px;
+    
+
+}
+
+.introword2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #5C5C5C;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+
+.banner5{
+    height: 595px;
+    background-color:rgb(78, 59, 34, 0.6);
+}
+
+.Ban5Words{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 52px;
+
+}
+
+.ban5{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+    color: #0F0C06;
+    padding-bottom: 122px;
+    
+}
+
+.banWord{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #3C3C3C;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
+
+.ban5Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 60px;
+    background-color: #6B573D;
+    border-radius: 50px;
+    margin-left: 563px;
+    margin-top: 110px;
+    
+   
+}
+
+.Btnword5{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 400;
+
+}
+
+footer{
+    height: 315px;
+    margin-top: 119px;
+}
+
+.footer-box{
+    background-color: #0F0C06;
+    height: 315px;
+}
+
+.logo2{
+    width: 114px;
+    height: 73px;
+    margin-top: 32px;
+    margin-left: 63px;
+    margin-bottom: 90px;
+}
+
+.iconBtn{
+    
+    margin-left: 77px;
+    
+}
+
+.icon{
+    padding-right: 24px;
+    padding-bottom: 19px;
+}
+
+.footersmallword{
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 400;
+    padding-left: 79px;
+
+
+}
+
+
+
+/*.footerwords{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 538px;
+    margin-left: 563px;
+    
+}
+
+.footerintro{
+    margin-bottom: 500px;
+}
+
+.big{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 26px;
+    margin: 0;
+    color: #fff;
+    
+}
+
+.footerintroword{
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+*/
